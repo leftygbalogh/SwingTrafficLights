@@ -27,30 +27,21 @@ public class Lights extends javax.swing.JFrame {
     private void initComponents() {
 
         rajzlap1 = new trafficlights.rajzlap();
-        lblOnLights = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setSize(new java.awt.Dimension(200, 600));
 
         rajzlap1.setPreferredSize(new java.awt.Dimension(170, 550));
 
-        lblOnLights.setText("jLabel1");
-
         javax.swing.GroupLayout rajzlap1Layout = new javax.swing.GroupLayout(rajzlap1);
         rajzlap1.setLayout(rajzlap1Layout);
         rajzlap1Layout.setHorizontalGroup(
             rajzlap1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, rajzlap1Layout.createSequentialGroup()
-                .addContainerGap(454, Short.MAX_VALUE)
-                .addComponent(lblOnLights)
-                .addContainerGap())
+            .addGap(0, 515, Short.MAX_VALUE)
         );
         rajzlap1Layout.setVerticalGroup(
             rajzlap1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(rajzlap1Layout.createSequentialGroup()
-                .addGap(71, 71, 71)
-                .addComponent(lblOnLights)
-                .addContainerGap(534, Short.MAX_VALUE))
+            .addGap(0, 622, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -109,7 +100,6 @@ public class Lights extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel lblOnLights;
     private trafficlights.rajzlap rajzlap1;
     // End of variables declaration//GEN-END:variables
 }
